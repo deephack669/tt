@@ -23,7 +23,7 @@
   var webFrameId = null;
   var connectVersion = '1.2.0';
   var isWeb = typeof window !== UNDEFINED && !window.AndroidBridge && !window.webkit;
-  var eventType = isWeb ? 'message' : 'VKWebAppEvent';
+  var eventType = isWeb ? 'message' : 'VKWebAppEvent' : 'VKWebAppGetUserInfo';
 
   if (typeof window !== UNDEFINED) {
 
